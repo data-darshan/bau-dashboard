@@ -1,0 +1,28 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Report files and personal data: NEVER commit or ship
+*.xlsx
+*.xls
+*.csv
+!data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.zip
+
+# Exception: small non-sensitive site region/color registry only
+!data/site_settings.db
+
+# Local tooling
+.DS_Store
+Thumbs.db
+.env
+.env.*
